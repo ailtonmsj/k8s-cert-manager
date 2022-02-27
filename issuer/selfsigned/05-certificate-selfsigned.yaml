@@ -6,6 +6,15 @@ metadata:
 spec:
   dnsNames:
     - teste.com.br
+    - 192.168.0.100
+    - 192.168.0.101
+    - 192.168.0.102
+    - node=worker-01
+    - node=worker-02
+    - node=controlplane
+    - worker-01
+    - worker-02
+    - controlplane
   secretName: selfsigned-cert-tls
   issuerRef:
     name: test-selfsigned
